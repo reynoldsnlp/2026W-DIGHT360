@@ -16,8 +16,6 @@ This lab focuses on:
 
 """
 
-from __future__ import annotations
-
 from pathlib import Path
 
 LAB_DIR = Path(__file__).parent
