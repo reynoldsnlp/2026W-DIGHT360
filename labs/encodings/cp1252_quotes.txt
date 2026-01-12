@@ -1,0 +1,7 @@
+WINDOWS-1252 PUNCTUATION
+
+Curly quotes: “Hello”, ‘world’.
+Dashes: en–dash, em—dash.
+Symbol: € (euro).
+
+(This file is saved as Windows-1252.)
