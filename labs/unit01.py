@@ -24,37 +24,6 @@ OUTPUT_DIR = LAB_DIR / "unit01_output"
 
 
 # -----------------------------
-# Part 0 — Warmup data
-# -----------------------------
-
-SAMPLE_TUPLES: list[tuple[str, int]] = [
-    ("alpha", 3),
-    ("beta", 1),
-    ("gamma", 2),
-]
-
-WORD_LIST: list[str] = [
-    "token",
-    "lemma",
-    "corpus",
-    "python",
-    "regex",
-    "unicode",
-    "byte",
-    "string",
-]
-
-RAW_TEXT = (
-    "Contact: Ada Lovelace <ada@analytical.engine>\n"
-    "Backup: team+nlp@school.edu\n"
-    "Office: (555) 123-4567\n"
-    "Alt: 555-000-9999\n"
-    "Dates: 2026-01-12, 01/13/2026, and Jan 14, 2026\n"
-    "Hashtags: #TextProcessing #DIGHT360\n"
-)
-
-
-# -----------------------------
 # Part 1 — Importing from stdlib
 # -----------------------------
 
@@ -97,6 +66,23 @@ banana_counts = ...
 
 Replace each `...` below.
 """
+
+SAMPLE_TUPLES: list[tuple[str, int]] = [
+    ("alpha", 3),
+    ("beta", 1),
+    ("gamma", 2),
+]
+
+WORD_LIST: list[str] = [
+    "token",
+    "lemma",
+    "corpus",
+    "python",
+    "regex",
+    "unicode",
+    "byte",
+    "string",
+]
 
 first_tuple = SAMPLE_TUPLES[0]
 label, count = ...
@@ -151,6 +137,15 @@ Implement:
 
 Keep patterns simple and readable; do not aim for RFC-perfect email matching.
 """
+
+RAW_TEXT = (
+    "Contact: Ada Lovelace <ada@analytical.engine>\n"
+    "Backup: team+nlp@school.edu\n"
+    "Office: (555) 123-4567\n"
+    "Alt: 555-000-9999\n"
+    "Dates: 2026-01-12, 01/13/2026, and Jan 14, 2026\n"
+    "Hashtags: #TextProcessing #DIGHT360\n"
+)
 
 
 def find_emails(text: str) -> list[str]:
@@ -239,6 +234,17 @@ Sort WORD_LIST by:
 Use `sorted(..., key=...)` with a lambda.
 Replace each `...` below.
 """
+
+WORD_LIST: list[str] = [
+    "token",
+    "lemma",
+    "corpus",
+    "python",
+    "regex",
+    "unicode",
+    "byte",
+    "string",
+]
 
 sorted_by_last_letter = ...
 
