@@ -3,5 +3,7 @@ name = "2026w-dight360"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "matplotlib>=3.10.8",
     "nltk>=3.9.2",
+    "numpy>=2.4.1",
 ]
