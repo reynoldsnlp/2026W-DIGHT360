@@ -13,7 +13,7 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-01-21 (Wed) | [nltk ch. 1](https://www.nltk.org/book/ch01.html) <br> (skip parts about python. Don't worry about trying to run any `nltk` code yet; we'll do the exercises together in class.) | End-of-chapter exercises 4-8, 17-29 |
 | 2026-01-26 (Mon) | [nltk ch. 2](https://www.nltk.org/book/ch02.html) | End-of-chapter exercises 4, 8, 12 |
 | 2026-01-28 (Wed) | [nltk ch. 3](https://www.nltk.org/book/ch03.html) | 1-3, 9, 10, 12, 21, 31 |
-| 2026-02-02 (Mon) | TBD | TBD |
+| 2026-02-02 (Mon) | [nltk ch. 5](https://www.nltk.org/book/ch05.html) | TBD |
 | 2026-02-04 (Wed) | TBD | TBD |
 | 2026-02-09 (Mon) | TBD | TBD |
 | 2026-02-11 (Wed) | TBD | TBD |
