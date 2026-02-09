@@ -15,10 +15,10 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-01-28 (Wed) | [nltk ch. 3](https://www.nltk.org/book/ch03.html) | 1-3, 9, 10, 12, 21, 31 |
 | 2026-02-02 (Mon) | [nltk ch. 5](https://www.nltk.org/book/ch05.html) | 15, 18, 20 |
 | 2026-02-04 (Wed) | No reading | extracting features from poems |
-| 2026-02-09 (Mon) | Write at least 10 features | TBD |
-| 2026-02-11 (Wed) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | TBD |
+| 2026-02-09 (Mon) | Write at least 10 features | All corpora, 10 more features |
+| 2026-02-11 (Wed) | sklearn | TBD |
 | 2026-02-16 (Mon) | Presidents Day (no class) | Presidents Day (no class) |
-| 2026-02-17 (Tue) | Presidents Day (no class) | Presidents Day (no class) |
+| 2026-02-17 (Tue) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | TBD |
 | 2026-02-18 (Wed) | TBD | TBD |
 | 2026-02-23 (Mon) | TBD | TBD |
 | 2026-02-25 (Wed) | TBD | TBD |
