@@ -21,3 +21,14 @@ You must use at least the following corpora, but you are welcome to use others i
 - news (`nltk.corpus.treebank` or `nltk.corpus.reuters`)
 - movie reviews (`nltk.corpus.movie_reviews`)
 - twitter (`nltk.corpus.twitter_samples`)
+
+### Twitter samples
+
+The `twitter_samples` corpus contains 5000 positive and 5000 negative tweets. You can load the tweets with the following code:
+
+```python
+from nltk.corpus import twitter_samples
+for tweet_json_str in twitter_samples.raw('negative_tweets.json').split('\n'):
+    text = json.loads(tweet_json_str)['text']
+    # do something with the text
+```
