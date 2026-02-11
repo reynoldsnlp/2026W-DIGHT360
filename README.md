@@ -18,8 +18,8 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-02-09 (Mon) | Write at least 10 features | All corpora, 10 more features |
 | 2026-02-11 (Wed) | review code; sklearn | Replicate [classifier comparison](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html) with your data (using [StratifiedShuffleSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html)) |
 | 2026-02-16 (Mon) | Presidents Day (no class) | Presidents Day (no class) |
-| 2026-02-17 (Tue) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | TBD |
-| 2026-02-18 (Wed) | TBD | TBD |
+| 2026-02-17 (Tue) | No reading | TBD |
+| 2026-02-18 (Wed) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | TBD |
 | 2026-02-23 (Mon) | TBD | TBD |
 | 2026-02-25 (Wed) | TBD | TBD |
 | 2026-03-02 (Mon) | TBD | TBD |
