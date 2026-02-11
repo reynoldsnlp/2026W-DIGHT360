@@ -16,7 +16,7 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-02-02 (Mon) | [nltk ch. 5](https://www.nltk.org/book/ch05.html) | 15, 18, 20 |
 | 2026-02-04 (Wed) | No reading | extracting features from poems |
 | 2026-02-09 (Mon) | Write at least 10 features | All corpora, 10 more features |
-| 2026-02-11 (Wed) | sklearn | TBD |
+| 2026-02-11 (Wed) | review code; sklearn | Replicate [classifier comparison](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html) with your data (using [StratifiedShuffleSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html)) |
 | 2026-02-16 (Mon) | Presidents Day (no class) | Presidents Day (no class) |
 | 2026-02-17 (Tue) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | TBD |
 | 2026-02-18 (Wed) | TBD | TBD |
