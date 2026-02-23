@@ -21,8 +21,8 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-02-17 (Tue) | No reading | TBD |
 | 2026-02-18 (Wed) | - [10 mins to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) <br /> - [Feature selection](https://scikit-learn.org/stable/modules/feature_selection.html) | TBD |
 | 2026-02-23 (Mon) | - [Precision, recall, F1, support](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html) <br /> - [Confusion matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html) | https://github.com/nishkalavallabhi/OneStopEnglishCorpus |
-| 2026-02-25 (Wed) | TBD | TBD |
-| 2026-03-02 (Mon) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | TBD |
+| 2026-02-25 (Wed) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | extract features using spaCy |
+| 2026-03-02 (Mon) | TBD | TBD |
 | 2026-03-04 (Wed) | TBD | TBD |
 | 2026-03-09 (Mon) | TBD | TBD |
 | 2026-03-11 (Wed) | TBD | TBD |
