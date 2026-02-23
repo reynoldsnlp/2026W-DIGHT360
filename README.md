@@ -19,8 +19,8 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-02-11 (Wed) | review code; sklearn | Replicate [classifier comparison](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html) with your data (using [StratifiedShuffleSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html)) |
 | 2026-02-16 (Mon) | Presidents Day (no class) | Presidents Day (no class) |
 | 2026-02-17 (Tue) | No reading | TBD |
-| 2026-02-18 (Wed) | [10 mins to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) <br /> [feature selection](https://scikit-learn.org/stable/modules/feature_selection.html) | TBD |
-| 2026-02-23 (Mon) | TBD | TBD |
+| 2026-02-18 (Wed) | - [10 mins to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) <br /> - [Feature selection](https://scikit-learn.org/stable/modules/feature_selection.html) | TBD |
+| 2026-02-23 (Mon) | - [Precision, recall, F1, support](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html) <br /> - [Confusion matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html) | Compute evaluation matrices for your best two classifiers |
 | 2026-02-25 (Wed) | TBD | TBD |
 | 2026-03-02 (Mon) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | TBD |
 | 2026-03-04 (Wed) | TBD | TBD |
