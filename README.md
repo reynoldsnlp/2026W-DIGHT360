@@ -24,8 +24,8 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-02-25 (Wed) | [spacy ch. 1](https://course.spacy.io/en/chapter1) | extract features using spaCy |
 | 2026-03-02 (Mon) | [spacy ch. 2](https://course.spacy.io/en/chapter2) | extract features using spaCy |
 | 2026-03-04 (Wed) | [spacy ch. 3](https://course.spacy.io/en/chapter3) | extract features using spaCy |
-| 2026-03-09 (Mon) | [spacy ch. 4](https://course.spacy.io/en/chapter4) | extract features using spaCy |
-| 2026-03-11 (Wed) | TBD | TBD |
+| 2026-03-09 (Mon) | [spacy ch. 4](https://course.spacy.io/en/chapter4) | Using spaCy vectors as features |
+| 2026-03-11 (Wed) | [ModernBERT embeddings](https://medium.com/@ismailvanak/understanding-embeddings-with-modernbert-comparing-mean-pooling-via-transformers-and-300ef0d6b87a) | Using ModernBERT embeddings as features |
 | 2026-03-16 (Mon) | TBD | TBD |
 | 2026-03-18 (Wed) | TBD | TBD |
 | 2026-03-23 (Mon) | TBD | TBD |
