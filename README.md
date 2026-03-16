@@ -26,7 +26,7 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-03-04 (Wed) | [spacy ch. 3](https://course.spacy.io/en/chapter3) | extract features using spaCy |
 | 2026-03-09 (Mon) | [spacy ch. 4](https://course.spacy.io/en/chapter4) | Using spaCy vectors as features |
 | 2026-03-11 (Wed) | [ModernBERT embeddings](https://medium.com/@ismailvanak/understanding-embeddings-with-modernbert-comparing-mean-pooling-via-transformers-and-300ef0d6b87a) | Using ModernBERT embeddings as features |
-| 2026-03-16 (Mon) | TBD | TBD |
+| 2026-03-16 (Mon) | [Textual similarity](https://sbert.net/docs/sentence_transformer/usage/semantic_textual_similarity.html) <br /> Implement code from reading in Google Colab | [Search for similar scripture verses](labs/scripture_similarity.md) |
 | 2026-03-18 (Wed) | TBD | TBD |
 | 2026-03-23 (Mon) | TBD | TBD |
 | 2026-03-25 (Wed) | TBD | TBD |
