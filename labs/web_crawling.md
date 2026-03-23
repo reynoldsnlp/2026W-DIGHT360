@@ -29,9 +29,9 @@ Example:
 - Request: `http://reynoldsnlp.com/scrape/aa.html`
 - Save to: `scrape/aa.html`
 
-## 3. Write `get_hrefs(filename)`
+## 3. Write `parse_hrefs(filename)`
 
-Create a function named `get_hrefs` that takes one argument, `filename`.
+Create a function named `parse_hrefs` that takes one argument, `filename`.
 
 - Open the local file from `scrape/`.
 - Parse the HTML using `justhtml` (not BeautifulSoup).
@@ -70,7 +70,7 @@ Example:
   - `http://reynoldsnlp.com/scrape/ab.html`
   - `http://reynoldsnlp.com/scrape/ac.html`
   - `http://reynoldsnlp.com/crawl_trap.html`
-- Then `get_hrefs("aa.html")` should return:
+- Then `parse_hrefs("aa.html")` should return:
   - `['ab.html', 'ac.html']`
 
 ## 4. Crawl With Sets
@@ -110,8 +110,8 @@ When complete, you should have **80 files** in the `scrape/` directory.
 ## 7. Submission Checklist
 
 - `scrape/` is created automatically.
-- `get_reynoldsnlp(filename)` saves pages locally and returns `None`.
-- `get_hrefs(filename)` uses `justhtml` and returns filenames only.
+- `get_reynoldsnlp(filename)` uses `requests` to download pages, saves them locally, and returns `None`.
+- `parse_hrefs(filename)` uses `justhtml` and returns filenames only.
 - Crawler uses sets for `todo` and `visited`.
 - Crawler does not revisit pages and does not hit `crawl_trap.html`.
 - Exactly `80` files are saved in `scrape/`.
