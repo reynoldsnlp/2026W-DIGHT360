@@ -17,11 +17,13 @@ source = { virtual = "." }
 dependencies = [
     { name = "bs4" },
     { name = "en-core-web-sm" },
+    { name = "justhtml" },
     { name = "matplotlib" },
     { name = "nltk" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "pip" },
+    { name = "requests" },
     { name = "scikit-learn" },
     { name = "sentence-transformers" },
     { name = "spacy" },
@@ -33,11 +35,13 @@ dependencies = [
 requires-dist = [
     { name = "bs4", specifier = ">=0.0.2" },
     { name = "en-core-web-sm", url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz" },
+    { name = "justhtml", specifier = ">=1.13.0" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "nltk", specifier = ">=3.9.2" },
     { name = "numpy", specifier = ">=2.4.1" },
     { name = "pandas", specifier = ">=3.0.0" },
     { name = "pip", specifier = ">=26.0" },
+    { name = "requests", specifier = ">=2.32.5" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "sentence-transformers", specifier = ">=5.2.3" },
     { name = "spacy", specifier = ">=3.8.11" },
@@ -527,6 +531,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/41/f2/d34e8b3a08a9cc79a50b2208a93dce981fe615b64d5a4d4abee421d898df/joblib-1.5.3.tar.gz", hash = "sha256:8561a3269e6801106863fd0d6d84bb737be9e7631e33aaed3fb9ce5953688da3", size = 331603, upload-time = "2025-12-15T08:41:46.427Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7b/91/984aca2ec129e2757d1e4e3c81c3fcda9d0f85b74670a094cc443d9ee949/joblib-1.5.3-py3-none-any.whl", hash = "sha256:5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713", size = 309071, upload-time = "2025-12-15T08:41:44.973Z" },
+]
+
+[[package]]
+name = "justhtml"
+version = "1.13.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/fb/17/cba367880227009c6f0e385c0ef9162ca34b1250834ed3ee5fba7febadb3/justhtml-1.13.0.tar.gz", hash = "sha256:6538a8b54a51d99fc11574a11afe968b64b002247045c8b3f46f1b6f64d8ce78", size = 379802, upload-time = "2026-03-21T20:47:09.413Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/28/b8/f60e28f237f17917710d1eb4b7760f05186b96f5b393c53364a512b038b9/justhtml-1.13.0-py3-none-any.whl", hash = "sha256:9a10d606bbf9185d53cdf940528c80d8d8e13c714e4c0c2a8d66ef5ffefed99c", size = 135318, upload-time = "2026-03-21T20:47:08.185Z" },
 ]
 
 [[package]]
