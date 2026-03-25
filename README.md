@@ -29,7 +29,7 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-03-16 (Mon) | [Textual similarity](https://sbert.net/docs/sentence_transformer/usage/semantic_textual_similarity.html) <br /> Implement code from reading in Google Colab | [Search for similar scripture verses](labs/scripture_similarity.md) |
 | 2026-03-18 (Wed) | [Zero-shot classification](https://huggingface.co/tasks/zero-shot-classification) | Classify scriptures according to topic  |
 | 2026-03-23 (Mon) | Finish scripture classification task (15-20 mins) <br /> Brainstorm final project ideas | [Use `requests` to fetch HTML/JSON](labs/web_crawling.md)  |
-| 2026-03-25 (Wed) | TBD | TBD |
+| 2026-03-25 (Wed) | Class canceled | Check your email |
 | 2026-03-30 (Mon) | TBD | TBD |
 | 2026-04-01 (Wed) | TBD | TBD |
 | 2026-04-06 (Mon) | TBD | TBD |
