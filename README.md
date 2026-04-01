@@ -32,8 +32,8 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-03-25 (Wed) | Class canceled | Check your email |
 | 2026-03-30 (Mon) | None | Discuss final project ideas |
 | 2026-04-01 (Wed) | [Final project proposal due](final_project_proposal.md) | TBD |
-| 2026-04-06 (Mon) | TBD | TBD |
-| 2026-04-08 (Wed) | TBD | TBD |
-| 2026-04-13 (Mon) | TBD | TBD |
-| 2026-04-15 (Wed) | TBD | TBD |
-| 2026-04-18 (Wed) | Final Exam 11am-2pm | Final Exam 11am-2pm |
+| 2026-04-06 (Mon) | Class canceled | Email me if you need help with your project |
+| 2026-04-08 (Wed) | Final projects | mini-lecture: Visualizations (matplotlib, seaborn, plotly) |
+| 2026-04-13 (Mon) | Final projects | mini-lecture: TBD |
+| 2026-04-15 (Wed) | Final projects | mini-lecture: TBD |
+| 2026-04-18 (Wed) | Final project presentations 11am-2pm |  |

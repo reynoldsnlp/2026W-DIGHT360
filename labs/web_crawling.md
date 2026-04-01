@@ -44,24 +44,57 @@ Important:
 
 - If your results include `crawl_trap.html`, your filtering is incorrect.
 
-Minimal parsing sketch (API names may vary by version; use the equivalent from `justhtml`):
+Minimal parsing sketch using the current `justhtml` API (`justhtml 1.13.0`):
+```python
+from pathlib import Path
+from urllib.parse import urlparse
+from justhtml import JustHTML
+
+html_path = Path("scrape") / filename
+html_text = html_path.read_text(encoding="utf-8", errors="ignore")
+doc = JustHTML(html_text, sanitize=False)
+
+filenames = []
+for link in doc.root.query("a"):
+    href = link.attrs.get("href")
+    if not href:
+        continue
+    parsed = urlparse(href)
+    if parsed.netloc != "reynoldsnlp.com":
+        continue
+    if not parsed.path.startswith("/scrape/"):
+        continue
+    filenames.append(Path(parsed.path).name)
+```
+
+Example solution for `parse_hrefs`:
 
 ```python
 from pathlib import Path
 from urllib.parse import urlparse
-import justhtml
+from justhtml import JustHTML
 
-html = Path("scrape") / filename
-doc = justhtml.parse(html.read_text(encoding="utf-8", errors="ignore"))
 
-filenames = []
-for link in doc.select("a"):
-    href = link.attributes.get("href")
-    if not href:
-        continue
-    if "reynoldsnlp.com/scrape/" not in href:
-        continue
-    filenames.append(Path(urlparse(href).path).name)
+def parse_hrefs(filename):
+    html_path = Path("scrape") / filename
+    html_text = html_path.read_text(encoding="utf-8", errors="ignore")
+    doc = JustHTML(html_text, sanitize=False)
+
+    filenames = []
+    for link in doc.root.query("a"):
+        href = link.attrs.get("href")
+        if not href:
+            continue
+
+        parsed = urlparse(href)
+        if parsed.netloc != "reynoldsnlp.com":
+            continue
+        if not parsed.path.startswith("/scrape/"):
+            continue
+
+        filenames.append(Path(parsed.path).name)
+
+    return filenames
 ```
 
 Example:
