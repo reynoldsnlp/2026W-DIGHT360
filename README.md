@@ -36,4 +36,4 @@ All class meetings are Mondays and Wednesdays. Labs are due by email before the 
 | 2026-04-08 (Wed) | Final projects | mini-lecture: Visualizations (matplotlib, seaborn, plotly) |
 | 2026-04-13 (Mon) | Final projects | mini-lecture: TBD |
 | 2026-04-15 (Wed) | Final projects | mini-lecture: TBD |
-| 2026-04-18 (Wed) | Final project presentations 11am-2pm |  |
+| 2026-04-18 (Sat) | Final project presentations 11am-2pm |  |
